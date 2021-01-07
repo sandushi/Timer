@@ -133,10 +133,4 @@ h1 {
     grid-area: 4/ 1 / 4 / 6;
 } */
 
-@media only screen and (max-width: 320px) {
 
-    .time { 
-       font-size: 2em; 
-    }
- 
- }
