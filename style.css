@@ -63,7 +63,7 @@ h1 {
     align-self: center;
     border: none;
     background-color: #ffffff00;
-    font-size: 50px;
+    font-size:40px;
     width: 90px;
     height: 50px;
     justify-content: center;
@@ -132,3 +132,11 @@ h1 {
 /* #msg {
     grid-area: 4/ 1 / 4 / 6;
 } */
+
+@media only screen and (max-width: 320px) {
+
+    .time { 
+       font-size: 2em; 
+    }
+ 
+ }
