@@ -50,11 +50,11 @@ function timer(){
 
     }
 
-    if(s.value < 10 && s.value > 0){
+    if(m.value==0 && s.value < 10 && s.value > 0){
         msg.value = "You have less than 10s";
         document.getElementById("msg").style.backgroundColor = 'orange';
     }
-     if(s.value < 0 || s.value==0){
+     if(m.value==0 && (s.value < 0|| s.value==0)){
         msg.value = "You exceed your time";
         document.getElementById("msg").style.backgroundColor = 'red';
     }
